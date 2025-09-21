@@ -1,0 +1,25 @@
+{
+  "name": "yosoygroottheme",
+  "displayName": "yosoygroottheme",
+  "description": "A personalized theme",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edv4ldez/yosoygroottheme.git"
+  },
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "yosoygroottheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yosoygroottheme-color-theme.json"
+      }
+    ]
+  }
+}
